@@ -1,0 +1,59 @@
+body {
+  background: black;
+  margin: 0;
+}
+body h1 {
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Microsoft Yahei';
+  font-weight: normal;
+  z-index: 999;
+}
+body h1 span {
+  font-size: 15px;
+  font-weight: lighter;
+}
+body h1 a {
+  color: white;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+#notFound {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) scale(1.2);
+  width: 80%;
+  height: auto;
+}
+
+html, body, canvas {
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+  background: #020202;
+}
+
+
+canvas {
+  position: absolute;
+  width: 100%;
+}
+
+
+#title{
+  position:absolute;
+  top: 35%;
+  left: 25%;
+  width: 50%;
+  height: 45%;
+  background-color: purple;
+  opacity: 0.5;
+}
